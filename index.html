@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starbucks Homepage Clone</title>
+  <style>
+  * {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: white;
+}
+
+
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 2px;
+  
+  
+}
+
+.nav-left a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn {
+  color: inherit;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-out {
+  background: transparent;
+  border: 1px solid #ffffff;
+
+}
+
+.btn-filled {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+
+.promo {
+  padding: 64px 0;
+}
+
+.promo-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.promo.reverse .promo-inner {
+  flex-direction: row-reverse;
+}
+
+.promo-text {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.promo-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.promo-text p {
+  font-size: 16px;
+  margin-bottom: 28px;
+  max-width: 420px;
+}
+
+.promo-text .btn-outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.promo img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.greenBox { 
+  background: rgb(0, 100, 70);
+   color: #fff;
+ }
+.redBox { background: rgb(160, 26, 50);
+   color: #fff;
+   margin-top: 35px;
+   }
+
+
+
+footer {
+  padding: 40px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 14px;
+  color: #666;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+  <div class="nav">
+    <div class="nav-left">
+      <div class="logo"><img style="width: 40px;" src="./Starbucks_Corporation_Logo_2011.svg" alt="logo"></div>
+      <a href="#">Menu</a>
+      <a href="#">Rewards</a>
+      <a href="#">Gift Cards</a>
+    </div>
+    <div class="nav-right">
+      <button class="btn btn-out">Sign in</button>
+      <button class="btn btn-filled">Join now</button>
+    </div>
+  </div>
+</header>
+
+
+<div class="promo greenBox reverse">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <h2>Starbucks for Life<br>Merrython is here</h2>
+      <p>Chase the cheer in the new Starbucks for Life Merrython game. Simply join the fun for a chance to win weekly grand prizes like Starbucks for Life*. First stop: Seattle.</p>
+      <button class="btn btn-out">Play now</button>
+    </div>
+    <img style="height: auto;" src="./man_image.webp" alt="Illustration" />
+  </div>
+</div>
+
+<div class="promo redBox ">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <h2>Bring a little joy along</h2>
+      <p>Travel days are a treat with your holiday favorites in hand.</p>
+      <button class="btn btn-out">Find a store</button>
+    </div>
+    <img src="./coffeecup.jpg" alt="Cups" />
+  </div>
+</div>
+
+<div class="promo redBox reverse">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <h2>Our Roller Rabbit<br>collection is here</h2>
+      <p>Grab the whimsical limited-edition drinkware and Starbucks Card.</p>
+      <button class="btn btn-out">Learn more</button>
+
+    </div>
+    <img src="./limitedadd.webp" alt="Cup" />
+  </div>
+</div>
+
+<div class="promo redBox">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <h2>Holiday classics to gift and share</h2>
+      <p>A new expression of our beloved Starbucks® Christmas Blonde Roast with notes of spiced orange and fig compote, and classic Starbucks® Christmas Blend with notes of spiced chocolate and spruce tips.</p>
+    <button class="btn btn-out">Start an order</button>
+
+    </div>
+    <img src="./coffeebeans.webp" alt="Cup" />
+  </div>
+</div>
+
+<div class="promo redBox reverse" style="background-color: rgba(218, 208, 186, 0.77); color: rgb(54, 68, 30)">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <h2>Our gift to you</h2>
+      <p>Make the season merrier with a free handcrafted drink with purchase. It’s our treat during your first week as a Starbucks® Rewards member.**</p>
+       <button class="btn btn-out">Join Now</button>
+
+    </div>
+    <img src="./freecup.jpg" alt="Cup" />
+  </div>
+</div>
+
+<footer>
+  <p style="text-align: center; margin-top: 20px ; margin-left: 100px; margin-right: 100px; margin-bottom: 20px;">*NO PURCHASE NECESSARY. LEGAL RESIDENTS OF THE 50 UNITED STATES (D.C.) 18 AND OLDER AND WHO ARE MEMBERS OF THE STARBUCKS® REWARDS LOYALTY PROGRAM AT THE TIME OF ENTRY. VOID WHERE PROHIBITED. Starbucks Partners (employees) can win certain instant win game prizes but are not eligible to win sweepstakes prizes. Participating stores only. Promotion ends 1/4/26. For Official Rules, how to enter without purchase, prizes, and odds, visit starbucksforlife.com. Sponsor: Starbucks Corporation, 2401 Utah Ave. S, Seattle, WA 98134.<br><br>
+
+Starbucks for Life means the winner will receive a daily credit for 30 years for one free food or beverage item at participating Starbucks® stores in the U.S. Starbucks for a Year will be fulfilled as a daily credit for 365 days for one free food or beverage item at participating Starbucks® stores in the U.S. Excludes alcohol. <br><br>
+
+Prize Plays may be earned on eligible transactions at a participating Starbucks store. Purchases of alcohol and orders placed using Starbucks® Delivers in the Starbucks Mobile App are excluded. See starbucks.com/rewards/terms for details. <br><br>
+
+Entrants can receive 1 prize play and 1 sweepstakes entry each week and a maximum of 2 prize plays per day plus bonus opportunities to earn additional plays. <br><br><br><br><br>
+
+**Valid for new Starbucks Rewards members for 7 days from sign up. Coupon will be available in the offers tab of your Starbucks app following sign up and may take up to 48 hours to arrive. Good at participating U.S. stores for a handcrafted menu-sized beverage ($8 max value) with qualifying purchase. Qualifying purchase excludes alcohol, Starbucks Card and Starbucks Cards reloads. Limit one. Cannot be combined with other offers or discounts. Excludes delivery services. Sign up by 1/5/2026.<br><br>
+
+© 2025 Starbucks Coffee Company. All rights reserved.
+</p> 
+
+</footer>
+</body>
+</html>
